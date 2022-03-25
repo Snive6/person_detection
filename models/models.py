@@ -13,3 +13,4 @@ model.setPreferableTarget(cv2.dnn.DNN_TARGET_CUDA)
 
 layer_name = model.getLayerNames()
 layer_name = [layer_name[i - 1] for i in model.getUnconnectedOutLayers()]
+
