@@ -20,6 +20,6 @@ def detection_image(image, model, layer_name):
 	stop = time.time()
 	timer = stop - start
 
-	cv2.putText(image, f'Liczba zliczonych osob: {c - 1} czas: {round(timer, 5)}s', (20, 550), cv2.FONT_HERSHEY_DUPLEX,
+	cv2.putText(image, f'Number of people counted: {c - 1} time: {round(timer, 5)}s', (20, 550), cv2.FONT_HERSHEY_DUPLEX,
 				0.8, (0, 0, 255), 2)
 	cv2.imshow("Detection", image)
