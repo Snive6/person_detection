@@ -19,7 +19,7 @@ Without GPU configuration, the program will use the CPU.
 To run this project, install it locally:
 ```
 $ pip install opencv-python
-$ pip instal imutils
+$ pip install imutils
 ```
 and start program:
 ```
